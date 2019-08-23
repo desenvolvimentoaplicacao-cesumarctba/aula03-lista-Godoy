@@ -1,0 +1,10 @@
+<?php
+    $tempo = readline("Digite quanto tempo você levou de viagem " );
+    $vm = readline ("Qual foi a velocidade média percorrida na viagem? " );
+    $distancia = $tempo*$vm;
+    $litros_usados = number_format($distancia/ 12, 2);
+    echo "A velocidade média é $vm km/h" . PHP_EOL;
+    echo "O tempo gasto em viagem foi de $tempo minutos" . PHP_EOL;
+    echo "A distância percorrida na viagem foi $distancia kilometros" . PHP_EOL;
+    echo "A quantidade de litros gasto na viagem foi de $litros_usados litros" . PHP_EOL;
+?>
